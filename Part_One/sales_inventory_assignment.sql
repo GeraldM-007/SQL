@@ -5,8 +5,6 @@ set search_path to assignment;
 
 show search_path;
 
-select current_schema();
-
 -- CREATE Customers table in the assignment schema
 CREATE TABLE assignment.customers (
     customer_id INT PRIMARY KEY,
